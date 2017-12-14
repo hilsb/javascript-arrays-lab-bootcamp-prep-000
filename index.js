@@ -30,7 +30,7 @@ function kittens(name) {
   return appendKitten;
 }
 
-function prependKitten(name) {
+function kittens(name) {
   kittens = ["Milo", "Otis", "Garfield"];
   prependKitten("Arnold");
   return kittens;
