@@ -29,3 +29,18 @@ function appendKitten(name) {
   kittens.append(name);
   return appendKitten;
 }
+
+function prependKitten(name) {
+  kittens = ["Milo", "Otis", "Garfield"];
+  
+}
+
+function removeFirstKitten(name) {
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.
+}
+
+function removeLastKitte(name) {
+  kittens = ["Milo", "Otis", "Garfield"];
+  
+}
