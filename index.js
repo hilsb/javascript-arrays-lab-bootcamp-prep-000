@@ -32,7 +32,7 @@ function appendKitten(name) {
 
 function kittens(name) {
   kittens = ["Milo", "Otis", "Garfield"];
-  prependKitten("Arnold");
+  prependKitten(name);
   return kittens;
 }
 
