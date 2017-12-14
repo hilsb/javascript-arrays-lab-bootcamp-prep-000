@@ -23,3 +23,9 @@ function destructivelyRemoveFirstKitten(name) {
   kittens.shift(name);
   return kittens;
 }
+
+function appendKitten(name) {
+  kittens = ["Milo", "Otis", "Garfield"];
+  kittens.append(name);
+  return kittens;
+}
