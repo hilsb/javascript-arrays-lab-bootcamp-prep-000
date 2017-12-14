@@ -44,6 +44,6 @@ function removeFirstKitten(name) {
 
 function removeLastKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"];
-  windowKitten(2);
+  window.kittens(2);
   return windowKitten;
 }
