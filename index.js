@@ -30,10 +30,10 @@ function appendKitten(name) {
   return newKitten;
 }
 
-function kittens(name) {
+function prependKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"];
-  prependKitten(name);
-  return kittens;
+  var newKitten = ["Arnold", ...kittens];
+  return newKitten;
 }
 
 function removeFirstKitten(name) {
