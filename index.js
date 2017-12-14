@@ -38,8 +38,8 @@ function kittens(name) {
 
 function removeFirstKitten(name) {
   kittens = ["Milo", "Otis", "Garfield"];
-  newArray = kittens.slice(0);
-  return newArray;
+  removeFirstKitten = kittens.slice(0);
+  return removeFirstKitten;
 }
 
 function removeLastKitten(name) {
